@@ -11,7 +11,7 @@ public class Main {
         while (continuar) {
             Menu.mostrarMenu();
             int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine(); 
 
             switch (opcion) {
                 case 1:
